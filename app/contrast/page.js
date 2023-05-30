@@ -15,6 +15,7 @@ export default function Contrast() {
           title={'Contrast'}
           description={'Video, Live Streaming, Analytics, Data, Dashboard, Interaction'}
           role={'Senior Designer | 21-22'}
+          website={'https://www.getcontrast.io/'}
           copy={"Pivoting Airfair's online conference software through a rebranding to Contrast and designing a new platform focused on making webinars more engaging. During my time at Contrast I worked on the back end dashboard and analytics for webinar hosts and interactions design for viewers, as well as various conversion flows."}
         />
 
