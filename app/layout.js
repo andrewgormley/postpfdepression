@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Nav from './components/Nav';
@@ -13,6 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Analytics />
       <body className={inter.className}>
         <div className="flex flex-col text-zinc-50 leading-snug bg-zinc-950">
           <Nav/>
