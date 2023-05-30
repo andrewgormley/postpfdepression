@@ -24,6 +24,8 @@ export default function Contrast() {
           src={'/contrast-project/contrast-1.png'}
           alt={''}
           priority
+          placeholder='blur'
+          blurDataURL={'/contrast-project/contrast-1.png'}
           width={984}
           height={560}
         />
@@ -34,6 +36,8 @@ export default function Contrast() {
           src={'/contrast-project/contrast-2-2.png'}
           alt={''}
           priority
+          placeholder='blur'
+          blurDataURL={'/contrast-project/contrast-2-2.png'}
           width={984}
           height={560}
         />
@@ -43,7 +47,8 @@ export default function Contrast() {
           className="w-full"
           src={'/contrast-project/contrast-3-2.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/contrast-project/contrast-3-2.png'}
           width={984}
           height={560}
         />
@@ -53,7 +58,8 @@ export default function Contrast() {
           className="w-full"
           src={'/contrast-project/contrast-4.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/contrast-project/contrast-4.png'}
           width={984}
           height={560}
         />
@@ -63,7 +69,8 @@ export default function Contrast() {
           className="w-full"
           src={'/contrast-project/contrast-5.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/contrast-project/contrast-5.png'}
           width={984}
           height={560}
         />
@@ -73,7 +80,8 @@ export default function Contrast() {
           className="w-full"
           src={'/contrast-project/contrast-6.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/contrast-project/contrast-6.png'}
           width={984}
           height={560}
         />

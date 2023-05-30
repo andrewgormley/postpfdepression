@@ -24,6 +24,8 @@ export default function PacketFabric() {
           src={'/pf-project/dashboard.png'}
           alt={''}
           priority
+          placeholder='blur'
+          blurDataURL={'/pf-project/dashboard.png'}
           width={984}
           height={577}
         />
@@ -35,6 +37,8 @@ export default function PacketFabric() {
             src={'/pf-project/old-1.png'}
             alt={''}
             priority
+            placeholder='blur'
+            blurDataURL={'/pf-project/old-1.png'}
             width={984}
             height={577}
           />
@@ -44,6 +48,8 @@ export default function PacketFabric() {
             src={'/pf-project/old-2.png'}
             alt={''}
             priority
+            placeholder='blur'
+            blurDataURL={'/pf-project/old-2.png'}
             width={984}
             height={577}
           />
@@ -52,7 +58,8 @@ export default function PacketFabric() {
             className="w-full"
             src={'/pf-project/old-3.png'}
             alt={''}
-            priority
+            placeholder='blur'
+            blurDataURL={'/pf-project/old-3.png'}
             width={984}
             height={577}
           />
@@ -61,7 +68,8 @@ export default function PacketFabric() {
             className="w-full"
             src={'/pf-project/old-4.png'}
             alt={''}
-            priority
+            placeholder='blur'
+            blurDataURL={'/pf-project/old-4.png'}
             width={984}
             height={577}
           />
@@ -72,7 +80,8 @@ export default function PacketFabric() {
           className="w-full"
           src={'/pf-project/list-populated.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/pf-project/list-populated.png'}
           width={984}
           height={577}
         />
@@ -82,7 +91,8 @@ export default function PacketFabric() {
           className="w-full"
           src={'/pf-project/port-creation-billing.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/pf-project/port-creation-billing.png'}
           width={984}
           height={577}
         />
@@ -92,7 +102,8 @@ export default function PacketFabric() {
           className="w-full"
           src={'/pf-project/port-details.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/pf-project/port-details.png'}
           width={984}
           height={577}
         />
@@ -102,7 +113,8 @@ export default function PacketFabric() {
           className="w-full"
           src={'/pf-project/map-view.png'}
           alt={''}
-          priority
+          placeholder='blur'
+          blurDataURL={'/pf-project/map-view.png'}
           width={984}
           height={577}
         />

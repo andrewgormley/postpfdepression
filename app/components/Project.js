@@ -11,6 +11,8 @@ function Project(props) {
             className="w-full group-hover:blur-sm transition duration-300 ease-in-out"
             src={props.img}
             alt={props.imgAlt}
+            placeholder='blur'
+            blurDataURL={props.img}
             priority
             width={984}
             height={577}
