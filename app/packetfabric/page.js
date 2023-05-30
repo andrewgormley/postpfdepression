@@ -16,7 +16,7 @@ export default function PacketFabric() {
           description={'NaaS, Analytics, Data, Dashboard, Commerce, Information Architecture'}
           role={'Design Lead | 20 - 23'}
           website={'https://packetfabric.com/'}
-          copy={"Leading design at PacketFabric, working across a multitude of projects as part of an asynchronous engineering and product team. Working with Front-End to transform PacketFabric's old angular/material portal to Vue/Tailwind. Focused on implementing UX improvements to convert users through the purchasing flow, improving navigation and information architecture."}
+          copy={"Increaased conversation of the purchase flow for the top four products by 38%, reduced uturns by 19% and rage clicks by 16%. Leading design at PacketFabric, working across a multitude of projects as part of an asynchronous engineering and product team. Working with Front-End to transform PacketFabric's old angular/material portal to Vue/Tailwind. Focused on implementing UX improvements to convert users through the purchasing flow, improving navigation and information architecture."}
         />
 
         <Image
