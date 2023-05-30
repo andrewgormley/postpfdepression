@@ -16,7 +16,7 @@ export default function Contrast() {
           description={'Video, Live Streaming, Analytics, Data, Dashboard, Interaction'}
           role={'Senior Designer | 21-22'}
           website={'https://www.getcontrast.io/'}
-          copy={"Pivoting Airfair's online conference software through a rebranding to Contrast and designing a new platform focused on making webinars more engaging. During my time at Contrast I worked on the back end dashboard and analytics for webinar hosts and interactions design for viewers, as well as various conversion flows."}
+          copy={"Developing features from concept through to production for an early stage pre seed startup as part of a small team. Leading project kickoff and ideation sessions on Figjam. Rapid Figma prototyping and user testing via Maze. Pivoting the company’s product offering from one sector to another. Designing data driven dashboards and features in conjunction with early adopting customers and a constantly evolving roadmap."}
         />
 
         <Image
