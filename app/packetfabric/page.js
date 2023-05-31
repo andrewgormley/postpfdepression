@@ -13,7 +13,7 @@ export default function PacketFabric() {
 
         <ProjectHeader
           title={'PacketFabric'}
-          description={'NaaS, Analytics, Data, Dashboard, Commerce, Information Architecture'}
+          description={'NaaS, B2B, Analytics, Data, Dashboard, Commerce, Information Architecture'}
           role={'Design Lead | 20 - 23'}
           website={'https://packetfabric.com/'}
           copy={"Increased conversion of the purchase flow for PacketFabric’s top four products by 38%. Redesigned their B2B web app, reducing  u-turns and rage clicks by 19% and 16% respectively. Rapidly prototyping new features across multiple teams and projects as part of an async engineering and product team. Watching Hotjar recordings of real users and implementing UX improvements based on internal and external feedback. Building and maintaining a continuously evolving Tailwind based component library in Figma. Championing design throughout the company. Presenting analytical data and upcoming UX changes to 100+ team members live."}
@@ -36,7 +36,6 @@ export default function PacketFabric() {
             className="w-full"
             src={'/pf-project/old-1.png'}
             alt={''}
-            priority
             placeholder='blur'
             blurDataURL={'/pf-project/old-1.png'}
             width={984}

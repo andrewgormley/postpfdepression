@@ -19,8 +19,6 @@ export default function Home() {
           <LatestPost/>
         </div>
 
-
-
         <Project
           path={'/packetfabric'}
           img={'/pf-project.png'}
@@ -36,6 +34,14 @@ export default function Home() {
           title={'Contrast'}
           description={'Video, Live Streaming, Analytics, Data, Dashboard, Interaction'}
           role={'Senior Designer | 21-22'} />
+
+        <Project
+          path={'/crowdcube'}
+          img={'/crowdcube-project.png'}
+          imgAlt={''}
+          title={'Crowdcube'}
+          description={'Financial Tech, Web Design, B2B, B2C, Information Architecture, Commerce'}
+          role={'Lead UI Designer | 16-17'} />
 
         <ToolRow/>
 
