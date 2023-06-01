@@ -43,6 +43,14 @@ export default function Home() {
           description={'Financial Tech, B2B, B2C, Web Design, Information Architecture, Commerce'}
           role={'Lead UI Designer | 16-17'} />
 
+        <Project
+          path={'/sweatshop'}
+          img={'/sweatshop-project/sweatshop-cover.gif'}
+          imgAlt={''}
+          title={'Sweatshop'}
+          description={'Ecommerce, Web Design, B2C, Checkout, Branding'}
+          role={'Head of UX & Creative Director at DINK | 18-19'} />
+
         <ToolRow/>
 
         <Blogs/>

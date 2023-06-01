@@ -8,7 +8,7 @@ function Project(props) {
       <div className="group mb-24 lg:mb-48 overflow-hidden">
         <div class="relative">
           <Image
-            className="w-full group-hover:blur-sm transition duration-300 ease-in-out"
+            className="w-full group-hover:blur-sm group-hover:opacity-75 transition duration-300 ease-in-out"
             src={props.img}
             alt={props.imgAlt}
             placeholder='blur'

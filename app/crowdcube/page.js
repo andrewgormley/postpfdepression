@@ -164,8 +164,8 @@ export default function Crowdcube() {
         />
 
         <ProjectFooter
-          nextProject={'PacketFabric'}
-          nextPath={'/packetfabric'}
+          nextProject={'Sweatshop'}
+          nextPath={'/sweatshop'}
         />
 
       </div>
