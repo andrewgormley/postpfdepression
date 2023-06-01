@@ -24,7 +24,7 @@ export default function Home() {
           img={'/pf-project.png'}
           imgAlt={'PacketFabric dashboard'}
           title={'PacketFabric'}
-          description={'NaaS, Analytics, Data, Dashboard, Commerce, Information Architecture'}
+          description={'NaaS, B2B, Analytics, Data, Dashboard, Commerce, Information Architecture'}
           role={'Design Lead | 20 - 23'} />
 
         <Project
@@ -32,7 +32,7 @@ export default function Home() {
           img={'/contrast-project-3.png'}
           imgAlt={'Contrast admin dashboard'}
           title={'Contrast'}
-          description={'Video, Live Streaming, Analytics, Data, Dashboard, Interaction'}
+          description={'Video, B2B, B2C, Live Streaming, Analytics, Data, Dashboard, Interaction'}
           role={'Senior Designer | 21-22'} />
 
         <Project
@@ -40,7 +40,7 @@ export default function Home() {
           img={'/crowdcube-project.png'}
           imgAlt={''}
           title={'Crowdcube'}
-          description={'Financial Tech, Web Design, B2B, B2C, Information Architecture, Commerce'}
+          description={'Financial Tech, B2B, B2C, Web Design, Information Architecture, Commerce'}
           role={'Lead UI Designer | 16-17'} />
 
         <ToolRow/>

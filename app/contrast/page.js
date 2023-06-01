@@ -13,7 +13,7 @@ export default function Contrast() {
 
         <ProjectHeader
           title={'Contrast'}
-          description={'Video, B2B, Live Streaming, Analytics, Data, Dashboard, Interaction'}
+          description={'Video, B2B, B2C, Live Streaming, Analytics, Data, Dashboard, Interaction'}
           role={'Senior Designer | 21-22'}
           website={'https://www.getcontrast.io/'}
           copy={"Developing features from concept through to production for an early stage pre seed startup as part of a small team. Leading project kickoff and ideation sessions on Figjam. Rapid Figma prototyping and user testing via Maze. Pivoting the company’s product offering from one sector to another. Designing data driven dashboards and features in conjunction with early adopting customers and a constantly evolving roadmap."}
