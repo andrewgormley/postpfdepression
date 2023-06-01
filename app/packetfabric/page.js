@@ -31,6 +31,42 @@ export default function PacketFabric() {
         />
         <ImgDescription copy={'Dashboard / Home'}/>
 
+        <table className="table-auto border-collapse border border-zinc-700">
+          <thead>
+            <tr>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal"></th>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal">Old portal</th>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal">New portal</th>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal">% change</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-zinc-700 px-4 py-6">U-turns</td>
+              <td className="border border-zinc-700 px-4 py-6">20.3%</td>
+              <td className="border border-zinc-700 px-4 py-6">16.5%</td>
+              <td className="border border-zinc-700 px-4 py-6 text-green-400">
+                -18.7%
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 inline-block ml-1">
+                  <path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v13.19l5.47-5.47a.75.75 0 111.06 1.06l-6.75 6.75a.75.75 0 01-1.06 0l-6.75-6.75a.75.75 0 111.06-1.06l5.47 5.47V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-zinc-700 px-4 py-6">Rage clicks</td>
+              <td className="border border-zinc-700 px-4 py-6">0.6%</td>
+              <td className="border border-zinc-700 px-4 py-6">0.5%</td>
+              <td className="border border-zinc-700 px-4 py-6 text-green-400">
+                -16.6%
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 inline-block ml-1">
+                  <path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v13.19l5.47-5.47a.75.75 0 111.06 1.06l-6.75 6.75a.75.75 0 01-1.06 0l-6.75-6.75a.75.75 0 111.06-1.06l5.47 5.47V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+                </svg>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <ImgDescription copy={'U-turns and rage clicks as defined by Hotjar analytics'}/>
+
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2">
           <Image
             className="w-full"
@@ -96,6 +132,64 @@ export default function PacketFabric() {
           height={577}
         />
         <ImgDescription copy={"Purchase service flow"}/>
+
+        <table className="table-auto border-collapse border border-zinc-700">
+          <thead>
+            <tr>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal"></th>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal">Old purchase flow</th>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal">New purchase flow</th>
+              <th className="border border-zinc-700 px-4 py-6 text-left font-normal">% change</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-zinc-700 px-4 py-6">Ports</td>
+              <td className="border border-zinc-700 px-4 py-6">15.4%</td>
+              <td className="border border-zinc-700 px-4 py-6">21.5%</td>
+              <td className="border border-zinc-700 px-4 py-6 text-green-400">
+                39.6%
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 inline-block ml-1">
+                  <path fill-rule="evenodd" d="M12 20.25a.75.75 0 01-.75-.75V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l6.75 6.75a.75.75 0 11-1.06 1.06l-5.47-5.47V19.5a.75.75 0 01-.75.75z" clip-rule="evenodd" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-zinc-700 px-4 py-6">Point-to-Points</td>
+              <td className="border border-zinc-700 px-4 py-6">7.1%</td>
+              <td className="border border-zinc-700 px-4 py-6">11.7%</td>
+              <td className="border border-zinc-700 px-4 py-6 text-green-400">
+                64.7%
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 inline-block ml-1">
+                  <path fill-rule="evenodd" d="M12 20.25a.75.75 0 01-.75-.75V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l6.75 6.75a.75.75 0 11-1.06 1.06l-5.47-5.47V19.5a.75.75 0 01-.75.75z" clip-rule="evenodd" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-zinc-700 px-4 py-6">Backbone</td>
+              <td className="border border-zinc-700 px-4 py-6">27.1%</td>
+              <td className="border border-zinc-700 px-4 py-6">46.1%</td>
+              <td className="border border-zinc-700 px-4 py-6 text-green-400">
+                70.1%
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 inline-block ml-1">
+                  <path fill-rule="evenodd" d="M12 20.25a.75.75 0 01-.75-.75V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l6.75 6.75a.75.75 0 11-1.06 1.06l-5.47-5.47V19.5a.75.75 0 01-.75.75z" clip-rule="evenodd" />
+                </svg>
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-zinc-700 px-4 py-6">Hosted Cloud</td>
+              <td className="border border-zinc-700 px-4 py-6">19.8%</td>
+              <td className="border border-zinc-700 px-4 py-6">26.4%</td>
+              <td className="border border-zinc-700 px-4 py-6 text-green-400">
+                33.3%
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 inline-block ml-1">
+                  <path fill-rule="evenodd" d="M12 20.25a.75.75 0 01-.75-.75V6.31l-5.47 5.47a.75.75 0 01-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l6.75 6.75a.75.75 0 11-1.06 1.06l-5.47-5.47V19.5a.75.75 0 01-.75.75z" clip-rule="evenodd" />
+                </svg>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <ImgDescription copy={'Purchase flow conversion for top four products'}/>
 
         <Image
           className="w-full"
