@@ -20,7 +20,7 @@ function Socials() {
           <a href="https://read.cv/andrewgormley" target="_blank" className="px-3 py-5 transition ease-in-out hover:-translate-y-1 duration-300">
             <Image
               className="h-4 w-auto"
-              src="/read.png"
+              src="/read.svg"
               alt="read.cv logo"
               priority
               width={100}

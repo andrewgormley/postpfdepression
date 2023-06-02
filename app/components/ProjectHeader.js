@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 function ProjectHeader(props) {
   return (
-    <div>
-      <h1 className="text-2xl md:text-4xl mb-6 mt-12 md:mt-24">{props.title} <span class="text-zinc-400">— {props.description}</span></h1>
+    <div className="relative z-40">
+      <h1 className="text-2xl md:text-4xl mb-6 mt-24 md:mt-48">{props.title} <span class="text-zinc-400">— {props.description}</span></h1>
         <div className="text-zinc-400 mb-6 flex flex-row items-center">
         {props.role} | <a href={props.website} className="p-1 group hover:text-zinc-50 transition duration-150 ease-in-out" target="_blank">Website
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="inline-block w-3 h-3 ml-1 fill-zinc-400 group-hover:fill-green-400 transition duration-150 ease-in-out">

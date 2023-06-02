@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 function Banner() {
   return (
-    <div className="text-2xl md:text-4xl">
+    <div className="text-2xl md:text-4xl z-40 relative">
       <Typewriter
         onInit={(typewriter) => {
           typewriter.typeString("Hey, I'm Andrew")
