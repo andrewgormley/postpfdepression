@@ -124,6 +124,17 @@ export default function PacketFabric() {
 
         <Image
           className="w-full"
+          src={'/pf-project/list-populated-tray.png'}
+          alt={''}
+          placeholder='blur'
+          blurDataURL={'/pf-project/list-populated.png'}
+          width={984}
+          height={577}
+        />
+        <ImgDescription copy={"Services list page slide over"}/>
+
+        <Image
+          className="w-full"
           src={'/pf-project/port-creation-billing.png'}
           alt={''}
           placeholder='blur'
