@@ -51,6 +51,14 @@ export default function Home() {
           description={'Ecommerce, Web Design, B2C, Checkout, Branding'}
           role={'Head of UX & Creative Director at DINK | 18-19'} />
 
+        <Project
+          path={'/ldn19'}
+          img={'/ldn19-project/5.jpg'}
+          imgAlt={''}
+          title={'LDN19'}
+          description={'Ecommerce, Web Design, B2C, Animation, Interaction Design'}
+          role={'Designer/Developer | 15-16'} />
+
         <ToolRow/>
 
         <Blogs/>
